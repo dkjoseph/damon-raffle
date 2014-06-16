@@ -1,0 +1,38 @@
+// Bootstrap variables.
+@import 'variables.less';
+
+// Media query variables.
+@mobile:  ~"(max-width: 767px)";
+@tablet:  ~"(min-width: 768px) and (max-width: 979px)";
+@normal:  ~"(min-width: 980px) and (max-width: 1199px)";
+@wide:    ~"(min-width: 1200px)";
+
+// ----- MIXINS -----
+// ------------------
+// Primary box shadow
+.box-shadow (@boxShadow) {
+  -webkit-box-shadow: 0px 0px 5px rgba(20, 18, 18, 0.5);
+  -moz-box-shadow:    0px 0px 5px rgba(20, 18, 18, 0.5);
+  box-shadow:         0px 0px 5px rgba(20, 18, 18, 0.5);
+}
+
+body {
+  background: url("@{imagepath}/primary-noise.png");
+  .nav {margin-bottom:0;}
+}
+.container {
+  .well {
+    background: url("@{imagepath}/secondary-noise.png");padding: 0;border-color:@white; .box-shadow(0px 0px 5px);
+    .block-views {padding: 10px;background: white;margin: 4px;border: 1px solid #F1E5E5;}
+  }
+  .region-content {padding-top: 30px;border-top: 1px solid #fff;
+    .well {
+      .block-views {background: ;padding: 0 20px;margin: 0px;}
+    }
+    .view-commerce-cart-form {background: #ffffff;margin-top: -25px;padding: 30px 15px 1px;
+    .line-item-summary { background: @grayLighter;padding: 20px;
+      }
+    }
+  }
+  .page-header {border-color:@white;margin:0px}
+}
