@@ -6,7 +6,7 @@
 <div class="col-sm-5 col-md-6">
 	<a href="" class="gal"><?php print render($content['product:field_image']); ?></a>
 	
-	<?php print $content['product:field_large_image']['#items'][0]['uri']; ?>
+	<?php print $content['product:field_image']['#items'][0]['uri']; ?>
 		
 </div>
 <div class="well col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">
