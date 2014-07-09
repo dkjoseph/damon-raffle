@@ -6,12 +6,16 @@ var Drupal = Drupal || {};
 
   Drupal.behaviors.bootstrap_subtheme = {
     attach: function() {
-	
+	// Swiper
 	var _swiper = $('.swiper-container').swiper({
 	    mode: 'horizontal',
 	    loop: true
 	});
 	
+	// Magnific
+	$('.zoom').magnificPopup({ 
+	    type: 'image'
+	});
     }
   };
 
