@@ -4,7 +4,10 @@
 <?php  //hide($content['product:commerce_price']); //where it says 'field_description' can be any field that in  your product display.?>
 
 <div class="col-sm-5 col-md-6">
-	<?php print render($content['product:field_image']); ?>
+	<a href="" class="gal"><?php print render($content['product:field_image']); ?></a>
+	
+	<?php print $content['product:field_large_image']['#items'][0]['uri']; ?>
+		
 </div>
 <div class="well col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">
 	<div class="block-views">
