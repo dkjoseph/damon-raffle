@@ -14,7 +14,8 @@ var Drupal = Drupal || {};
 	
 	// Magnific
 	$('.zoom').magnificPopup({ 
-	    type: 'image'
+	    type: 'image',
+	    gallery: {enabled:true}
 	});
     }
   };
