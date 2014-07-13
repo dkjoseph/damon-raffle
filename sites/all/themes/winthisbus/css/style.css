@@ -38,6 +38,32 @@
   margin-top: 25px;
   margin-bottom: 35px;
 }
+.region-content #user-profile-form input[type="password"] {
+  width: 25%;
+}
+.region-content #commerce-checkout-form-checkout select,
+.region-content #commerce-checkout-form-checkout textarea,
+.region-content #commerce-checkout-form-checkout input[type="text"],
+.region-content #commerce-checkout-form-checkout input[type="password"],
+.region-content #commerce-checkout-form-checkout input[type="datetime"],
+.region-content #commerce-checkout-form-checkout input[type="datetime-local"],
+.region-content #commerce-checkout-form-checkout input[type="date"],
+.region-content #commerce-checkout-form-checkout input[type="month"],
+.region-content #commerce-checkout-form-checkout input[type="time"],
+.region-content #commerce-checkout-form-checkout input[type="week"],
+.region-content #commerce-checkout-form-checkout input[type="number"],
+.region-content #commerce-checkout-form-checkout input[type="email"],
+.region-content #commerce-checkout-form-checkout input[type="url"],
+.region-content #commerce-checkout-form-checkout input[type="search"],
+.region-content #commerce-checkout-form-checkout input[type="tel"],
+.region-content #commerce-checkout-form-checkout input[type="color"],
+.region-content #commerce-checkout-form-checkout .uneditable-input {
+  width: 30%;
+}
+.region-content #commerce-checkout-form-checkout div.addressfield-container-inline div.form-item {
+  float: auto;
+  margin: 0;
+}
 
 @media (min-width: 980px) and (max-width: 1199px), (min-width: 1200px) {
   .swiper-container {
