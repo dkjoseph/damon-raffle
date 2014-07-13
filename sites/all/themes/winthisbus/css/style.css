@@ -6,6 +6,39 @@
   font-style: normal;
 }
 
+.region-content label {
+  float: left;
+  width: 120px;
+  margin-right: 0;
+}
+.region-content textarea,
+.region-content input[type="text"],
+.region-content input[type="password"],
+.region-content input[type="datetime"],
+.region-content input[type="datetime-local"],
+.region-content input[type="date"],
+.region-content input[type="month"],
+.region-content input[type="time"],
+.region-content input[type="week"],
+.region-content input[type="number"],
+.region-content input[type="email"],
+.region-content input[type="url"],
+.region-content input[type="search"],
+.region-content input[type="tel"],
+.region-content input[type="color"],
+.region-content .uneditable-input {
+  width: 70%;
+  color: #333333;
+}
+.region-content textarea.form-control {
+  background: #fffcf5;
+  border-color: #e9c396;
+}
+.region-content .help-block {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
 @media (min-width: 980px) and (max-width: 1199px), (min-width: 1200px) {
   .swiper-container {
     width: 100%;
@@ -60,60 +93,60 @@
 
 
 body {
-  background: url("../images/body_grad.png") repeat-x 100%;
+  background: url("../images/body_grad.png") repeat-x bottom fixed;
 }
 body .nav {
   margin-bottom: 0;
 }
-.container a img:hover {
+.main-container a img:hover {
   border-bottom: 2px solid #ee7e57;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   margin-bottom: -2px;
 }
-.container .region-sidebar-first.well {
+.main-container .region-sidebar-first.well {
   background: transparent;
   padding: 10px;
   border: none;
   border: 1px solid #ffde89;
 }
-.container .region-sidebar-first.well .block-views {
+.main-container .region-sidebar-first.well .block-views {
   padding: 10px;
   margin: 4px;
 }
-.container .region-sidebar-first.well .block-views img {
+.main-container .region-sidebar-first.well .block-views img {
   margin: 0 0 14px 0;
 }
-.container .region-content {
+.main-container .region-content {
   padding-top: 30px;
 }
-.container .region-content .well {
+.main-container .region-content .well {
   background: #FAFAFA;
   border: 1px dashed #e3b278;
 }
-.container .region-content .well .block-views {
+.main-container .region-content .well .block-views {
   background: ;
   padding: 0 20px;
   margin: 0px;
 }
-.container .region-content .view-commerce-cart-form {
+.main-container .region-content .view-commerce-cart-form {
   background: #ffffff;
   margin-top: -25px;
   padding: 30px 15px 1px;
 }
-.container .region-content .view-commerce-cart-form .line-item-summary {
+.main-container .region-content .view-commerce-cart-form .line-item-summary {
   background: #eeeeee;
   padding: 20px;
 }
-.container .view-content .col-xs-4 {
+.main-container .view-content .col-xs-4 {
   padding: 0 8px 0 0;
 }
-.container .view-content .products {
+.main-container .view-content .products {
   padding-top: 10px;
 }
-.container .page-header {
-  border-color: #ded4b9;
+.main-container .page-header {
+  border: none;
   margin: 0px;
 }
 
@@ -133,28 +166,6 @@ body .nav {
 .main-container h3,
 .main-container h4 {
   font-family: "vanlose_booktypenormal", Arial, sans-serif;
-}
-.main-container textarea.form-control,
-.main-container input[type="text"],
-.main-container input[type="password"],
-.main-container input[type="datetime"],
-.main-container input[type="datetime-local"],
-.main-container input[type="date"],
-.main-container input[type="month"],
-.main-container input[type="time"],
-.main-container input[type="week"],
-.main-container input[type="number"],
-.main-container input[type="email"],
-.main-container input[type="url"],
-.main-container input[type="search"],
-.main-container input[type="tel"],
-.main-container input[type="color"],
-.main-container .uneditable-input {
-  color: #333333;
-}
-.main-container textarea.form-control {
-  background: #ffde89;
-  border-color: #e9c396;
 }
 
 html.overlay-open .navbar-fixed-top {
@@ -1784,7 +1795,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  background-color: #ffde89;
+  background-color: #fffcf5;
   border: 1px solid #e9c396;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1852,7 +1863,7 @@ input[type="file"] {
 select {
   width: 220px;
   border: 1px solid #e9c396;
-  background-color: #ffde89;
+  background-color: #fffcf5;
 }
 select[multiple],
 select[size] {
@@ -1869,7 +1880,7 @@ input[type="checkbox"]:focus {
 .uneditable-input,
 .uneditable-textarea {
   color: #d6d1cb;
-  background-color: #ffdd84;
+  background-color: #fffaf0;
   border-color: #e9c396;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
