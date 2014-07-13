@@ -61,8 +61,11 @@
   width: 30%;
 }
 .region-content #commerce-checkout-form-checkout div.addressfield-container-inline div.form-item {
-  float: auto;
+  float: none;
   margin: 0;
+}
+.region-content .component-total {
+  color: red;
 }
 
 @media (min-width: 980px) and (max-width: 1199px), (min-width: 1200px) {
