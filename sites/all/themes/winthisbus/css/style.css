@@ -64,6 +64,14 @@
   float: none;
   margin: 0;
 }
+.region-content #commerce-checkout-form-checkout .form-item-customer-profile-shipping-commerce-customer-profile-copy {
+  width: 100%;
+  float: left;
+}
+.region-content #commerce-checkout-form-checkout .form-item-customer-profile-shipping-commerce-customer-profile-copy label {
+  width: 90%;
+  margin-bottom: 26px;
+}
 .region-content .component-total {
   color: red;
 }
