@@ -1,0 +1,19 @@
+// Bootstrap variables.
+@import 'variables.less';
+
+// Media query variables.
+@mobile:  ~"(max-width: 767px)";
+@tablet:  ~"(min-width: 768px) and (max-width: 979px)";
+@normal:  ~"(min-width: 980px) and (max-width: 1199px)";
+@wide:    ~"(min-width: 1200px)";
+
+.page-checkout {
+  .container {
+      @media @normal, @wide {
+        width: 60%
+      }
+    .region-content {
+      margin: 0 auto;
+    }  
+  } 
+}
