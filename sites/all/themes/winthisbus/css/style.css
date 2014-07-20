@@ -42,33 +42,53 @@
   width: 25%;
 }
 .region-content #commerce-checkout-form-checkout select,
+.region-content #commerce-checkout-form-review select,
 .region-content #commerce-checkout-form-checkout textarea,
+.region-content #commerce-checkout-form-review textarea,
 .region-content #commerce-checkout-form-checkout input[type="text"],
+.region-content #commerce-checkout-form-review input[type="text"],
 .region-content #commerce-checkout-form-checkout input[type="password"],
+.region-content #commerce-checkout-form-review input[type="password"],
 .region-content #commerce-checkout-form-checkout input[type="datetime"],
+.region-content #commerce-checkout-form-review input[type="datetime"],
 .region-content #commerce-checkout-form-checkout input[type="datetime-local"],
+.region-content #commerce-checkout-form-review input[type="datetime-local"],
 .region-content #commerce-checkout-form-checkout input[type="date"],
+.region-content #commerce-checkout-form-review input[type="date"],
 .region-content #commerce-checkout-form-checkout input[type="month"],
+.region-content #commerce-checkout-form-review input[type="month"],
 .region-content #commerce-checkout-form-checkout input[type="time"],
+.region-content #commerce-checkout-form-review input[type="time"],
 .region-content #commerce-checkout-form-checkout input[type="week"],
+.region-content #commerce-checkout-form-review input[type="week"],
 .region-content #commerce-checkout-form-checkout input[type="number"],
+.region-content #commerce-checkout-form-review input[type="number"],
 .region-content #commerce-checkout-form-checkout input[type="email"],
+.region-content #commerce-checkout-form-review input[type="email"],
 .region-content #commerce-checkout-form-checkout input[type="url"],
+.region-content #commerce-checkout-form-review input[type="url"],
 .region-content #commerce-checkout-form-checkout input[type="search"],
+.region-content #commerce-checkout-form-review input[type="search"],
 .region-content #commerce-checkout-form-checkout input[type="tel"],
+.region-content #commerce-checkout-form-review input[type="tel"],
 .region-content #commerce-checkout-form-checkout input[type="color"],
-.region-content #commerce-checkout-form-checkout .uneditable-input {
+.region-content #commerce-checkout-form-review input[type="color"],
+.region-content #commerce-checkout-form-checkout .uneditable-input,
+.region-content #commerce-checkout-form-review .uneditable-input {
   width: 60%;
 }
-.region-content #commerce-checkout-form-checkout div.addressfield-container-inline div.form-item {
+.region-content #commerce-checkout-form-checkout div.addressfield-container-inline div.form-item,
+.region-content #commerce-checkout-form-review div.addressfield-container-inline div.form-item {
   float: none;
   margin: 0;
 }
-.region-content #commerce-checkout-form-checkout .form-item-customer-profile-shipping-commerce-customer-profile-copy {
+.region-content #commerce-checkout-form-checkout .form-item-customer-profile-shipping-commerce-customer-profile-copy,
+.region-content #commerce-checkout-form-review .form-item-customer-profile-shipping-commerce-customer-profile-copy {
   width: 100%;
   float: left;
 }
-.region-content #commerce-checkout-form-checkout .form-item-customer-profile-shipping-commerce-customer-profile-copy label {
+.region-content #commerce-checkout-form-checkout .form-item-customer-profile-shipping-commerce-customer-profile-copy label,
+.region-content #commerce-checkout-form-review .form-item-customer-profile-shipping-commerce-customer-profile-copy label {
   width: 90%;
   margin-bottom: 26px;
 }
@@ -115,6 +135,14 @@
 #navbar.navbar.navbar-default {
   background: #ee7e57;
 }
+.navbar-header a.logo {
+  position: relative;
+  width: 220px;
+}
+.navbar-header a.logo img {
+  position: absolute;
+  width: 225px;
+}
 
 @media (min-width: 980px) and (max-width: 1199px), (min-width: 1200px) {
   .swiper-container {
@@ -130,7 +158,7 @@
 
 
 body.page-checkout {
-  background: #FFFBE8;
+  background: #fffcf5;
 }
 @media (min-width: 980px) and (max-width: 1199px), (min-width: 1200px) {
   body.page-checkout .container {
