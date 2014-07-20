@@ -92,6 +92,11 @@
   width: 90%;
   margin-bottom: 26px;
 }
+.region-content #commerce-checkout-form-checkout .commerce-credit-card-expiration .form-type-select,
+.region-content #commerce-checkout-form-review .commerce-credit-card-expiration .form-type-select {
+  margin: 0;
+  float: left;
+}
 .region-content #commerce-checkout-form-checkout .commerce-credit-card-expiration select,
 .region-content #commerce-checkout-form-review .commerce-credit-card-expiration select {
   width: 50%;
