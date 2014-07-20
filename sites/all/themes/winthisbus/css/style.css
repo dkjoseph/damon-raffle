@@ -92,12 +92,14 @@
   width: 90%;
   margin-bottom: 26px;
 }
+.region-content #commerce-checkout-form-checkout .commerce-credit-card-expiration,
+.region-content #commerce-checkout-form-review .commerce-credit-card-expiration {
+  float: left;
+  width: 100%;
+}
 .region-content #commerce-checkout-form-checkout .commerce-credit-card-expiration .commerce-month-year-divider,
 .region-content #commerce-checkout-form-review .commerce-credit-card-expiration .commerce-month-year-divider {
-  position: relative;
-  left: -444px;
-  font-size: 36px;
-  top: 9px;
+  display: none;
 }
 .region-content #commerce-checkout-form-checkout .commerce-credit-card-expiration .form-type-select,
 .region-content #commerce-checkout-form-review .commerce-credit-card-expiration .form-type-select {
