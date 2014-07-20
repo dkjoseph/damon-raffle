@@ -129,13 +129,31 @@
 }
 
 
+body.page-checkout {
+  background: #FFFBE8;
+}
 @media (min-width: 980px) and (max-width: 1199px), (min-width: 1200px) {
-  .page-checkout .container {
+  body.page-checkout .container {
     width: 60%;
   }
 }
-.page-checkout .container .region-content {
+body.page-checkout .container .region-content {
   margin: 0 auto;
+}
+body.page-checkout #commerce-checkout-form-review .checkout_review {
+  background-color: #ffffff;
+  border: 1px solid #d6d1cb;
+}
+body.page-checkout .table .table {
+  background-color: #d6d1cb;
+}
+body.page-checkout .checkout-help {
+  font-style: italic;
+  font-size: 17px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 body {
@@ -143,9 +161,6 @@ body {
 }
 body .nav {
   margin-bottom: 0;
-}
-body.page-checkout {
-  background: #E0E0E0;
 }
 .main-container a img:hover {
   border-bottom: 2px solid #ee7e57;

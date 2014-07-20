@@ -7,7 +7,9 @@
 @normal:  ~"(min-width: 980px) and (max-width: 1199px)";
 @wide:    ~"(min-width: 1200px)";
 
-.page-checkout {
+body.page-checkout {
+    background: #FFFBE8;
+
   .container {
       @media @normal, @wide {
         width: 60%
@@ -16,4 +18,23 @@
       margin: 0 auto;
     }  
   } 
+  #commerce-checkout-form-review {
+    .checkout_review {
+      background-color:#ffffff;
+      border: 1px solid @grayLight;
+    }
+  }
+  .table {
+    .table {
+      background-color:@grayLight;
+    }
+  }
+  .checkout-help {
+    font-style: italic;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    text-align: center;
+  }
 }
