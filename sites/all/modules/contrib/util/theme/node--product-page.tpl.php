@@ -11,9 +11,7 @@
 	<div class="block-views">
 	
 		<h3><?php print render($content['product:commerce_price']); ?></h3>		
-		<p style="font-weight: bold;font-size: 18px;">
-		 <?php print render($content['product:field_description']); ?>
-		</p>
+		<p><?php print render($content['product:field_description']); ?></p>
 		<?php print render($content['field_product']); ?>
 
 	</div>
