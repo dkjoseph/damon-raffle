@@ -3,7 +3,7 @@
 /**
  * Implements hook_commerce_paypal_api_request_alter() to properly add the SHIPTO items for wpp transactions
  */
-function do_custom_commerce_paypal_api_request_alter(&$nvp, $order, $payment_method) {
+function paypal_shipping_commerce_paypal_api_request_alter(&$nvp, $order, $payment_method) {
   if ($payment_method['base'] == 'commerce_paypal_wpp' ) {
   	$order_wrapper = entity_metadata_wrapper('commerce_order', $order);
   	$shipping_address = $order_wrapper->commerce_customer_shipping->commerce_customer_address->value();
