@@ -23,22 +23,3 @@ function _util_insert_after_first_element(&$a, $element) {
     array_unshift($a, $first_element, $element);
   }
 }
-
-/**
- * Implements hook_commerce_paypal_api_request_alter() to properly add the SHIPTO items for wpp transactions
- */
-function do_custom_commerce_paypal_api_request_alter(&$nvp, $order, $payment_method) {
-  if ($payment_method['base'] == 'commerce_paypal_wpp' ) {
-  	$order_wrapper = entity_metadata_wrapper('commerce_order', $order);
-  	$shipping_address = $order_wrapper->commerce_customer_shipping->commerce_customer_address->value();
-    $nvp += array(
-      'SHIPTONAME' => substr($shipping_address['name_line'], 0, 25),
-      'SHIPTOSTREET' => substr($shipping_address['thoroughfare'], 0, 100),
-      'SHIPTOSTREET2' => substr($shipping_address['premise'], 0, 100),
-      'SHIPTOCITY' => substr($shipping_address['locality'], 0, 40),
-      'SHIPTOSTATE' => substr($shipping_address['administrative_area'], 0, 40),
-      'SHIPTOCOUNTRY' => $shipping_address['country'],
-      'SHIPTOZIP' => substr($shipping_address['postal_code'], 0, 20),
-    );
-  }
-}

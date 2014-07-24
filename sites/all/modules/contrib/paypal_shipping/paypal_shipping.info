@@ -1,0 +1,5 @@
+name = Paypal shipping address
+description = Will add shipping address to pp invoice
+package = Util
+core = 7.x
+php = 5.2
