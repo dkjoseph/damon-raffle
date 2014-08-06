@@ -7,6 +7,7 @@ files/
 sites/*/files
 sites/*/private
 sites/*/files/*
+tmp/
 
 # Ignore default text files
 robots.txt
@@ -44,3 +45,4 @@ sites/all/themes/README.txt
 .settings/org.eclipse.php.core.prefs
 
 .settings/org.eclipse.wst.common.project.facet.core.xml
+

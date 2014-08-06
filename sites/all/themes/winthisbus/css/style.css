@@ -6,6 +6,22 @@
   font-style: normal;
 }
 
+.region-content panel {
+  border: none;
+}
+.region-content legend {
+  margin: 0;
+}
+.region-content fieldset .panel-body {
+  padding: 15px;
+  border-right: 1px solid #E4E4E4;
+  border-left: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+}
+.region-content fieldset .panel-heading {
+  border: 1px solid #ddd;
+  background-color: #FFEBAB;
+}
 .region-content label {
   float: left;
   width: 120px;
@@ -110,6 +126,14 @@
 .region-content #commerce-checkout-form-checkout .commerce-credit-card-expiration select,
 .region-content #commerce-checkout-form-review .commerce-credit-card-expiration select {
   width: 50%;
+}
+.region-content #commerce-checkout-form-checkout .field-name-field-other-,
+.region-content #commerce-checkout-form-review .field-name-field-other- {
+  display: none;
+}
+.region-content #commerce-checkout-form-checkout .error,
+.region-content #commerce-checkout-form-review .error {
+  background: none;
 }
 .region-content .component-total {
   color: red;

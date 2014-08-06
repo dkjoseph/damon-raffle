@@ -2,6 +2,24 @@
 @import 'variables.less';
 
 .region-content {
+  panel {
+    border: none
+  }
+  legend {
+    margin: 0;
+  }
+  fieldset {
+    .panel-body {
+      padding: 15px;
+      border-right: 1px solid #E4E4E4;
+      border-left: 1px solid #E4E4E4;
+      border-bottom: 1px solid #E4E4E4;
+    }
+    .panel-heading {
+      border: 1px solid #ddd;
+      background-color:#FFEBAB;
+    }
+  }
   label {
     float: left; 
     width: 120px;
@@ -60,6 +78,12 @@
       select {
         width: 50%; 
       }
+    }
+    .field-name-field-other- {
+      display:none; 
+    }
+    .error {
+      background: none;
     }
   }
   .component-total {
