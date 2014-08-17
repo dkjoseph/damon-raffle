@@ -19,7 +19,7 @@ var Drupal = Drupal || {};
 	});
 	
 	// Customer information form
-	var $hearabout = $('#edit-customer-profile-shipping-field-how-did-you-find-us-und');
+	var $hearabout = $('#edit-customer-profile-shipping-field-other');
 	var $other = $('.field-name-field-other');
 	
 	$hearabout.change(function(){
