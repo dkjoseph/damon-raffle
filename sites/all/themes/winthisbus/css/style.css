@@ -131,9 +131,11 @@
   width: 50%;
 }
 .region-content #commerce-checkout-form-checkout .field-name-field-how-did-you-find-us-,
-.region-content #commerce-checkout-form-review .field-name-field-how-did-you-find-us-,
-.region-content #commerce-checkout-form-checkout .field-name-field-other,
-.region-content #commerce-checkout-form-review .field-name-field-other {
+.region-content #commerce-checkout-form-review .field-name-field-how-did-you-find-us- {
+  display: none;
+}
+.region-content #commerce-checkout-form-checkout .field-name-field-other-,
+.region-content #commerce-checkout-form-review .field-name-field-other- {
   display: none;
 }
 .region-content #commerce-checkout-form-checkout .error,
