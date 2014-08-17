@@ -46,3 +46,7 @@ sites/all/themes/README.txt
 
 .settings/org.eclipse.wst.common.project.facet.core.xml
 
+
+*.less
+
+*.less

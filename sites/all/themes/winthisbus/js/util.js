@@ -24,7 +24,7 @@ var Drupal = Drupal || {};
 	
 	$hearabout.change(function(){
 //	   var _sel = $(this).find('option:selected');
-	   var _valSel = this.value == ('other');
+	   var _valSel = this.value == ('16');
 	   
 	   if (_valSel == true){
 	       $other.fadeIn();
